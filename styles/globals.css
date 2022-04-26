@@ -537,21 +537,20 @@ span.text-red {
   transform: scale(1.1, 1.1);
 }
 .quantity-desc {
-  border: 1px solid gray;
-  padding: 6px;
+  /* border: 1px solid gray; */
+  padding: 12px 0px;
 }
 .quantity-desc span {
   font-size: 16px;
-  padding: 6px 12px;
   cursor: pointer;
 }
 .quantity-desc .minus {
-  border-right: 1px solid gray;
   color: #f02d34;
+  padding-right: 12px;
 }
 .quantity-desc .num {
-  border-right: 1px solid gray;
   font-size: 20px;
+  padding-right: 12px;
 }
 .quantity-desc .plus {
   color: rgb(49, 168, 49);
@@ -713,10 +712,11 @@ span.text-red {
     height: 25%;
   }
   .buttons .add-to-cart {
-    width: 150px;
+    width: 140px;
+    margin-right: 12px;
   }
   .buttons .buy-now {
-    width: 150px;
+    width: 140px;
   }
   .product-detail-container {
     margin: 20px;
